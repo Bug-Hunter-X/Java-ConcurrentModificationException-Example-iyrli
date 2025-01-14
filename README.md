@@ -1,0 +1,1 @@
+This repository contains a simple Java program that demonstrates the ConcurrentModificationException. The program iterates over an ArrayList and removes elements based on a condition.  This action causes a ConcurrentModificationException because the list is being modified while it's being iterated.  A solution is provided that uses an Iterator to safely modify the list.
